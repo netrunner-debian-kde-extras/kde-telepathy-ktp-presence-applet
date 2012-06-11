@@ -1,0 +1,95 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2012.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-05-02 13:45+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "更多"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "上線"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "忙碌"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "離開"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "無法聯繫"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "隱身"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "離線"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "帳號管理員"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "聯絡人清單"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "新增聯絡人"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr "您似乎忘了選擇一個帳號。同時也別忘了先連線過去。"
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "未選取任何帳號"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr "剛發生了一個未預期的錯誤，因此無法新增聯絡人。抱歉。"
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "帳號錯誤"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "連線中..."
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "On click:"
+#~ msgstr "點選時："
+
+#~ msgid "Do Nothing"
+#~ msgstr "不做任何事"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "顯示帳號管理員"

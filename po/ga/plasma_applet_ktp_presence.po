@@ -1,0 +1,96 @@
+# Irish translation of ktp-presence-applet
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the ktp-presence-applet package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktp-presence-applet\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Tuilleadh"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Ar Líne"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Gafa"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Amuigh"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Níl ar Fáil"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Dofheicthe"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "As Líne"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Bainisteoir Cuntas"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Liosta Teagmhálacha"
+
+#: src/presenceapplet.cpp:138
+#, fuzzy
+msgid "Add New Contacts"
+msgstr "Taispeáin an Liosta Teagmhálacha"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr ""
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+
+#: src/presenceapplet.cpp:206
+#, fuzzy
+msgid "Account Error"
+msgstr "Bainisteoir Cuntas"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Ag ceangal..."
+
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgid "On click:"
+#~ msgstr "Ar chlic:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Ná Déan Faic"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Taispeáin an Bainisteoir Cuntas"

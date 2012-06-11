@@ -1,0 +1,98 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-05-01 10:03+0300\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Rohkem"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Võrgus"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Hõivatud"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Eemal"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Pole kättesaadav"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Nähtamatu"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Pole võrgus"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Kontohaldur"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Kontaktide nimekiri"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Lisa uusi kontakte"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Tundub, et unustasid valida konto. Ära unusta ka sellega kõigepealt "
+"ühendumast."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "Kontot pole valitud"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Tekkis tõrge, mida me ei ole osanud ette näha, ja seepärast ei saanud "
+"kontakti lisada. Vabandust."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Konto tõrge"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Ühendumine..."
+
+#~ msgid "General"
+#~ msgstr "Üldine"
+
+#~ msgid "On click:"
+#~ msgstr "Klõpsamisel:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Ei tehta midagi"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Kontohalduri näitamine"

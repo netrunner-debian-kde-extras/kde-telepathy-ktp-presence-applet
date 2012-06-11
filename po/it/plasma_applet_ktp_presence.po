@@ -1,0 +1,121 @@
+# translation of plasma_applet_ktp_presence.po to Italian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pino Toscano <toscano.pino@tiscali.it>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_ktp_presence\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-03-29 10:49+0200\n"
+"Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Di più"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "In linea"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Occupato"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Assente"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Non disponibile"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Invisibile"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Non in linea"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Gestore degli account"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Lista dei contatti"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Aggiungi nuovi contatti"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Sembra che non hai selezionato alcun account. Non dimenticarti di "
+"connetterti prima."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "Nessun account selezionato"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Si è verificato un errore non previsto e per questo non è stato possibile "
+"aggiungere il contatto."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Errore dell'account"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Connessione..."
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "On click:"
+#~ msgstr "Al clic:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Non fare nulla"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Mostra il gestore degli account"
+
+#~ msgid ""
+#~ "The presence data engine is missing. Please install the 'telepathy-"
+#~ "presence-dataengine' to use this plasmoid"
+#~ msgstr ""
+#~ "Non è stato trovato il motore di dati della presenza. Per usare questo "
+#~ "oggetto di Plasma, installa «telepathy-presence-dataengine»."
+
+#~ msgid "Click to set text"
+#~ msgstr "Clic per impostare il testo"
+
+#~ msgid "Click to set nick"
+#~ msgstr "Clic per impostare il nick"
+
+#~ msgid "Click to set personal message"
+#~ msgstr "Clic per impostare il messaggio personale"
+
+#~ msgid "Extended Away"
+#~ msgstr "Assente a lungo"
+
+#~ msgid "Account manager"
+#~ msgstr "Gestore degli account"

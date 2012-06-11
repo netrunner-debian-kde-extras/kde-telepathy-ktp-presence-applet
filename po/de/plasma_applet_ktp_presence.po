@@ -1,0 +1,99 @@
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012.
+# Frederik Schwarzer <schwarzer@kde.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_ktp_presence\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-05-16 19:42+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Mehr"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Online"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Beschäftigt"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Abwesend"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Unsichtbar"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Offline"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Zugangsverwaltung"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Kontaktliste"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Neue Kontakte hinzufügen"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Es scheint als haben Sie vergessen, einen Zugang auszuwählen. Sie müssen "
+"diesen zudem erst verbinden."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "Kein Zugang ausgewählt"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Es ist ein unvorhergesehener Fehler aufgetreten und der Kontakt kann nicht "
+"hinzugefügt werden."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Zugangsfehler"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Verbindungsaufbau ..."
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "On click:"
+#~ msgstr "Bei Klick:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Nichts unternehmen"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Zugangsverwaltung anzeigen"
+
+#~ msgid "Extended Away"
+#~ msgstr "Länger abwesend"

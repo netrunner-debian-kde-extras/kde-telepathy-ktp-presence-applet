@@ -1,0 +1,84 @@
+# Translation of plasma_applet_ktp_presence to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-03-29 03:54+0200\n"
+"PO-Revision-Date: 2012-03-09 17:24+0100\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: src/presenceapplet.cpp:113
+msgid "More"
+msgstr "Mer"
+
+#: src/presenceapplet.cpp:115
+msgid "Online"
+msgstr "Tilkoblet"
+
+#: src/presenceapplet.cpp:116
+msgid "Busy"
+msgstr "Opptatt"
+
+#: src/presenceapplet.cpp:117
+msgid "Away"
+msgstr "Borte"
+
+#: src/presenceapplet.cpp:118
+msgid "Not Available"
+msgstr "Ikke tilgjengelig"
+
+#: src/presenceapplet.cpp:119
+msgid "Invisible"
+msgstr "Usynlig"
+
+#: src/presenceapplet.cpp:120
+msgid "Offline"
+msgstr "Frakoblet"
+
+#: src/presenceapplet.cpp:130
+msgid "Account Manager"
+msgstr "Kontobehandler"
+
+#: src/presenceapplet.cpp:131
+msgid "Contact List"
+msgstr "Kontaktliste"
+
+#: src/presenceapplet.cpp:132
+msgid "Add New Contacts"
+msgstr ""
+
+#: src/presenceapplet.cpp:199
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+
+#: src/presenceapplet.cpp:200
+msgid "No Account Selected"
+msgstr ""
+
+#: src/presenceapplet.cpp:204
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+
+#: src/presenceapplet.cpp:205
+msgid "Account Error"
+msgstr ""
+
+#: src/presenceapplet.cpp:254
+msgid "Connecting..."
+msgstr "Kobler til …"

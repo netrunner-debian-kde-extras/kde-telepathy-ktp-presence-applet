@@ -1,0 +1,120 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2011-12-28 16:59+0100\n"
+"Last-Translator: Stefan Asserhall <stefan.asserhall@comhem.se>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Mer"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Uppkopplad"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Upptagen"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Borta"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Inte tillgänglig"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Osynlig"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Nerkopplad"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Kontohanterare"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Kontaktlista"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Lägg till nya kontakter"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Det verkar som om du glömde att välja ett konto. Glöm inte heller att "
+"ansluta först."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "Inget konto valt"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Ett fel som inte förväntades inträffade just, alltså kunde inte kontakten "
+"läggas till. Ursäkta."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Kontofel"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Ansluter..."
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "On click:"
+#~ msgstr "Vid klick:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Gör ingenting"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Visa kontohanterare"
+
+#~ msgid ""
+#~ "The presence data engine is missing. Please install the 'telepathy-"
+#~ "presence-dataengine' to use this plasmoid"
+#~ msgstr ""
+#~ "Datagränssnitt för närvaro saknas. Installera  'telepathy-presence-"
+#~ "dataengine' för att kunna använda den här Plasmoiden."
+
+#~ msgid "Click to set text"
+#~ msgstr "Klicka för att ange text"
+
+#~ msgid "Click to set nick"
+#~ msgstr "Klicka för att ange smeknamn"
+
+#~ msgid "Click to set personal message"
+#~ msgstr "Klicka för att ange personligt meddelande"
+
+#~ msgid "Extended Away"
+#~ msgstr "Längre frånvaro"
+
+#~ msgid "Account manager"
+#~ msgstr "Kontohanterare"

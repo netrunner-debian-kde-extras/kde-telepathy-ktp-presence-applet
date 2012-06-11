@@ -1,0 +1,101 @@
+# Translation of plasma_applet_ktp_presence.po to Catalan
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_ktp_presence\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-05-15 22:23+0200\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Més"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Connectat"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Ocupat"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Absent"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "No disponible"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Desconnectat"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Gestor de comptes"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Llista de contactes"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Afegeix contactes nous"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Sembla que heu oblidat de seleccionar un compte. Tampoc no oblideu de "
+"connectar-la primer."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "No heu seleccionat cap compte"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Acaba de produir-se un error no anticipable i el contacte no s'ha pogut "
+"afegir."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Error de compte"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "S'està connectant..."
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "On click:"
+#~ msgstr "En clicar:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "No facis res"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Mostra el gestor de comptes"

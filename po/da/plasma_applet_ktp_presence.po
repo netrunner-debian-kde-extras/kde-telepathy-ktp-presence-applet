@@ -1,0 +1,119 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"PO-Revision-Date: 2012-03-31 08:28+0200\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/presenceapplet.cpp:119
+msgid "More"
+msgstr "Mere"
+
+#: src/presenceapplet.cpp:121
+msgid "Online"
+msgstr "Online"
+
+#: src/presenceapplet.cpp:122
+msgid "Busy"
+msgstr "Optaget"
+
+#: src/presenceapplet.cpp:123
+msgid "Away"
+msgstr "Borte"
+
+#: src/presenceapplet.cpp:124
+msgid "Not Available"
+msgstr "Ikke tilgængelig"
+
+#: src/presenceapplet.cpp:125
+msgid "Invisible"
+msgstr "Usynlig"
+
+#: src/presenceapplet.cpp:126
+msgid "Offline"
+msgstr "Offline"
+
+#: src/presenceapplet.cpp:136
+msgid "Account Manager"
+msgstr "Håndtering af konti"
+
+#: src/presenceapplet.cpp:137
+msgid "Contact List"
+msgstr "Kontaktliste"
+
+#: src/presenceapplet.cpp:138
+msgid "Add New Contacts"
+msgstr "Tilføj nye kontakter"
+
+#: src/presenceapplet.cpp:201
+msgid ""
+"Seems like you forgot to select an account. Also do not forget to connect it "
+"first."
+msgstr ""
+"Det lader til at du glemte at vælge en konto. Glem heller ikke at forbinde "
+"med den først."
+
+#: src/presenceapplet.cpp:202
+msgid "No Account Selected"
+msgstr "Ingen konto valgt"
+
+#: src/presenceapplet.cpp:205
+msgid ""
+"An error we did not anticipate just happened and so the contact could not be "
+"added. Sorry."
+msgstr ""
+"Der skete en uventet fejl og derfor kunne kontakten ikke tilføjes. Beklager."
+
+#: src/presenceapplet.cpp:206
+msgid "Account Error"
+msgstr "Kontofejl"
+
+#: src/presenceapplet.cpp:256
+msgid "Connecting..."
+msgstr "Forbinder..."
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "On click:"
+#~ msgstr "Ved klik:"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Gør intet"
+
+#~ msgid "Show Account Manager"
+#~ msgstr "Vis håndtering af konti"
+
+#~ msgid ""
+#~ "The presence data engine is missing. Please install the 'telepathy-"
+#~ "presence-dataengine' to use this plasmoid"
+#~ msgstr ""
+#~ "Datamotoren til tilstedeværelse mangler. Installér \"telepathy-presence-"
+#~ "dataengine\" for at bruge denne plasmoid"
+
+#~ msgid "Click to set text"
+#~ msgstr "Klik for at angive tekst"
+
+#~ msgid "Click to set nick"
+#~ msgstr "Klik for at angive kaldenavn"
+
+#~ msgid "Click to set personal message"
+#~ msgstr "Klik for at angive personlig besked"
+
+#~ msgid "Extended Away"
+#~ msgstr "Udvidet borte"
+
+#~ msgid "Account manager"
+#~ msgstr "Håndtering af konti"
