@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --parallel --with kde --dbg-package=plasma-widget-telepathy-presence-dbg --list-missing

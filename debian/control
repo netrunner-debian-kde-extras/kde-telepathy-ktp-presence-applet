@@ -1,0 +1,35 @@
+Source: ktp-presence-applet
+Section: kde
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 9),
+ pkg-kde-tools (>= 0.9),
+ kdelibs5-dev (>= 4:4.6),
+ cmake (>= 2.8),
+ libktpcommoninternalsprivate-dev (>= 0.4.0),
+ libtelepathy-qt4-dev (>= 0.9.0)
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-presence-applet
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-presence-applet.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-presence-applet.git
+
+Package: plasma-widget-telepathy-presence
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-telepathy-data (>= 0.4)
+Recommends: kde-telepathy
+Description: KDE Telepathy presence plasma widget
+ This package provides a plasma widget that allows you to display and set
+ your presence status for your instant messaging accounts.
+ .
+ This package is not meant to be used standalone. It is recommended
+ to install the kde-telepathy metapackage instead.
+
+Package: plasma-widget-telepathy-presence-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: plasma-widget-telepathy-presence (= ${binary:Version}), ${misc:Depends}
+Description: KDE Telepathy presence plasma widget - debug symbols
+ This package provides the debug symbols for the KDE Telepathy
+ presence plasma widget.
