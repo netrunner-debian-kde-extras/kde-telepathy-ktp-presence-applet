@@ -6,80 +6,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-presence-applet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
 "PO-Revision-Date: 2011-12-28 12:28-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: ga\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "Tuilleadh"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "Ar Líne"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Gafa"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Amuigh"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "Níl ar Fáil"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Dofheicthe"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "As Líne"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Bainisteoir Cuntas"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "Liosta Teagmhálacha"
 
-#: src/presenceapplet.cpp:138
-#, fuzzy
+#: src/presenceapplet.cpp:143
 msgid "Add New Contacts"
-msgstr "Taispeáin an Liosta Teagmhálacha"
+msgstr "Cuir Teagmhálacha Nua Leis"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
-msgstr ""
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
+msgstr "Cuir Glao"
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:206
-#, fuzzy
-msgid "Account Error"
-msgstr "Bainisteoir Cuntas"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "Ag ceangal..."
 

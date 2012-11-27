@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-29 03:54+0200\n"
+"POT-Creation-Date: 2012-09-21 12:57+0200\n"
 "PO-Revision-Date: 2012-03-09 17:24+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -19,66 +19,50 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: src/presenceapplet.cpp:113
+#: src/presenceapplet.cpp:123
 msgid "More"
 msgstr "Mer"
 
-#: src/presenceapplet.cpp:115
+#: src/presenceapplet.cpp:125
 msgid "Online"
 msgstr "Tilkoblet"
 
-#: src/presenceapplet.cpp:116
+#: src/presenceapplet.cpp:126
 msgid "Busy"
 msgstr "Opptatt"
 
-#: src/presenceapplet.cpp:117
+#: src/presenceapplet.cpp:127
 msgid "Away"
 msgstr "Borte"
 
-#: src/presenceapplet.cpp:118
+#: src/presenceapplet.cpp:128
 msgid "Not Available"
 msgstr "Ikke tilgjengelig"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:129
 msgid "Invisible"
 msgstr "Usynlig"
 
-#: src/presenceapplet.cpp:120
+#: src/presenceapplet.cpp:130
 msgid "Offline"
 msgstr "Frakoblet"
 
-#: src/presenceapplet.cpp:130
+#: src/presenceapplet.cpp:140
 msgid "Account Manager"
 msgstr "Kontobehandler"
 
-#: src/presenceapplet.cpp:131
+#: src/presenceapplet.cpp:141
 msgid "Contact List"
 msgstr "Kontaktliste"
 
-#: src/presenceapplet.cpp:132
+#: src/presenceapplet.cpp:142
 msgid "Add New Contacts"
 msgstr ""
 
-#: src/presenceapplet.cpp:199
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
+#: src/presenceapplet.cpp:145
+msgid "Make a Call"
 msgstr ""
 
-#: src/presenceapplet.cpp:200
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:204
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid "Account Error"
-msgstr ""
-
-#: src/presenceapplet.cpp:254
+#: src/presenceapplet.cpp:256
 msgid "Connecting..."
 msgstr "Kobler til …"

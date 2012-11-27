@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_ktp_presence\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
-"PO-Revision-Date: 2012-03-19 01:08+0100\n"
+"POT-Creation-Date: 2012-09-21 12:57+0200\n"
+"PO-Revision-Date: 2012-08-05 18:43+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
@@ -19,67 +19,49 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:123
 msgid "More"
 msgstr "Više"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:125
 msgid "Online"
 msgstr "Na vezi"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:126
 msgid "Busy"
 msgstr "Zauzet"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:127
 msgid "Away"
 msgstr "Odsutan"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:128
 msgid "Not Available"
 msgstr "Nedostupan"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:129
 msgid "Invisible"
 msgstr "Nevidljiv"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:130
 msgid "Offline"
 msgstr "Van veze"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:140
 msgid "Account Manager"
 msgstr "Menadžer naloga"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:141
 msgid "Contact List"
 msgstr "Spisak kontakata"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:142
 msgid "Add New Contacts"
-msgstr ""
+msgstr "Dodaj nove kontakte"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
-msgstr ""
-
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:206
-#, fuzzy
-#| msgid "Account Manager"
-msgid "Account Error"
-msgstr "Menadžer naloga"
+#: src/presenceapplet.cpp:145
+msgid "Make a Call"
+msgstr "Pozovi"
 
 #: src/presenceapplet.cpp:256
 msgid "Connecting..."

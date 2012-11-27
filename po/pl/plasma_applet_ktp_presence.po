@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
-"PO-Revision-Date: 2012-04-28 07:10+0200\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"PO-Revision-Date: 2012-09-05 16:15+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language-Team: Polish <kdei18n-pl-uwagi>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,73 +18,73 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "Więcej"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "Dostępny"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Zajęty"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Nieobecny"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "Niedostępny"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Niewidoczny"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "Niedostępny"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Menadżer konta"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "Lista kontaktów"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:143
 msgid "Add New Contacts"
 msgstr "Dodaj nowe kontakty"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
-msgstr ""
-"Wygląda na to, że zapomniano wybrać konta. Nie zapomnij również podłączyć "
-"się do niego w pierwszej kolejności."
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
+msgstr "Zadzwoń"
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr "Nie wybrano konta"
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-"Właśnie wystąpił błąd, którego się nie spodziewaliśmy, dlatego nie można "
-"dodać konta. Przepraszamy."
-
-#: src/presenceapplet.cpp:206
-msgid "Account Error"
-msgstr "Błąd konta"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "Łączenie..."
+
+#~ msgid ""
+#~ "Seems like you forgot to select an account. Also do not forget to connect "
+#~ "it first."
+#~ msgstr ""
+#~ "Wygląda na to, że zapomniano wybrać konta. Nie zapomnij również podłączyć "
+#~ "się do niego w pierwszej kolejności."
+
+#~ msgid "No Account Selected"
+#~ msgstr "Nie wybrano konta"
+
+#~ msgid ""
+#~ "An error we did not anticipate just happened and so the contact could not "
+#~ "be added. Sorry."
+#~ msgstr ""
+#~ "Właśnie wystąpił błąd, którego się nie spodziewaliśmy, dlatego nie można "
+#~ "dodać konta. Przepraszamy."
+
+#~ msgid "Account Error"
+#~ msgstr "Błąd konta"
 
 #~ msgid "General"
 #~ msgstr "Ogólne"
