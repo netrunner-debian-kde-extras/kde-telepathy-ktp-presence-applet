@@ -1,21 +1,21 @@
-/***************************************************************************
- *   Copyright (C) 2011 by Francesco Nwokeka <francesco.nwokeka@gmail.com> *
- *                                                                         *
- *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License as published by  *
- *   the Free Software Foundation; either version 2 of the License, or     *
- *   (at your option) any later version.                                   *
- *                                                                         *
- *   This program is distributed in the hope that it will be useful,       *
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
- *   GNU General Public License for more details.                          *
- *                                                                         *
- *   You should have received a copy of the GNU General Public License     *
- *   along with this program; if not, write to the                         *
- *   Free Software Foundation, Inc.,                                       *
- *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA            *
- ***************************************************************************/
+/*
+ * Copyright (C) 2011 by Francesco Nwokeka <francesco.nwokeka@gmail.com>
+ * Copyright (C) 2012 by Martin Klapetek <martin.klapetek@gmail.com>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
 
 #include "presenceapplet.h"
 
@@ -29,6 +29,7 @@
 #include <KToolInvocation>
 #include <KUser>
 #include <KMessageBox>
+#include <KStandardDirs>
 
 #include <KTp/global-presence.h>
 #include <KTp/Models/accounts-model.h>
@@ -68,6 +69,9 @@ TelepathyPresenceApplet::TelepathyPresenceApplet(QObject *parent, const QVariant
     setMinimumSize(QSize(iconSize, iconSize));
 
     connect(m_globalPresence, SIGNAL(currentPresenceChanged(KTp::Presence)), this, SLOT(onPresenceChanged(KTp::Presence)));
+    connect(m_globalPresence, SIGNAL(changingPresence(bool)), this, SLOT(setBusy(bool)));
+
+    setStatus(Plasma::PassiveStatus);
 
     // register plasmoid for tooltip
     Plasma::ToolTipManager::self()->registerWidget(this);
@@ -111,6 +115,7 @@ void TelepathyPresenceApplet::init()
                                                   connectionFactory,
                                                   channelFactory);
 
+    connect(m_accountManager.data(), SIGNAL(newAccount(Tp::AccountPtr)), SLOT(onAccountsChanged()));
     connect(m_accountManager->becomeReady(), SIGNAL(finished(Tp::PendingOperation*)), this, SLOT(onAccountManagerReady(Tp::PendingOperation*)));
 }
 
@@ -136,6 +141,10 @@ void TelepathyPresenceApplet::setupContextMenuActions()
     KAction *showAccountManagerAction = new KAction(KIcon("telepathy-kde"), i18n("Account Manager"), this);
     KAction *showContactListAction = new KAction(KIcon("meeting-attending"), i18n("Contact List"), this);
     KAction *addContactAction = new KAction(KIcon("list-add-user"), i18n("Add New Contacts"), this);
+    KAction *makeCallAction = 0;
+    if (!KStandardDirs::findExe(QLatin1String("ktp-dialout-ui")).isEmpty()) {
+        makeCallAction = new KAction(KIcon("internet-telephony"), i18n("Make a Call"), this);
+    }
 
     // connect actions
     connect(goOnlineAction, SIGNAL(triggered()), this, SLOT(onPresenceActionClicked()));
@@ -148,6 +157,9 @@ void TelepathyPresenceApplet::setupContextMenuActions()
     connect(showAccountManagerAction, SIGNAL(triggered()), this, SLOT(startAccountManager()));
     connect(showContactListAction, SIGNAL(triggered()), this, SLOT(startContactList()));
     connect(addContactAction, SIGNAL(triggered()),this, SLOT(onAddContactRequest()));
+    if (makeCallAction) {
+        connect(makeCallAction, SIGNAL(triggered()), this, SLOT(onMakeCallRequest()));
+    }
 
     m_contextActions.append(goOnlineAction);
     m_contextActions.append(goBusyAction);
@@ -162,6 +174,9 @@ void TelepathyPresenceApplet::setupContextMenuActions()
 
     m_contextActions.append(moreMenu->addSeparator());
     m_contextActions.append(addContactAction);
+    if (makeCallAction) {
+        m_contextActions.append(makeCallAction);
+    }
 
     m_contextActions.append(moreMenu->addSeparator());
 }
@@ -173,8 +188,20 @@ void TelepathyPresenceApplet::onAccountManagerReady(Tp::PendingOperation* op)
         kDebug() << op->errorMessage();
     }
 
+    onAccountsChanged();
+
     // set the manager to the globalpresence
     m_globalPresence->setAccountManager(m_accountManager);
+}
+
+void TelepathyPresenceApplet::onAccountsChanged()
+{
+    //if connection to MC failed, or user has no accounts, hide presence icon.
+    if (m_accountManager->isValid() && m_accountManager->allAccounts().size() > 0) {
+        setStatus(Plasma::ActiveStatus);
+    } else {
+        setStatus(Plasma::PassiveStatus);
+    }
 }
 
 void TelepathyPresenceApplet::startAccountManager()
@@ -189,44 +216,18 @@ void TelepathyPresenceApplet::startContactList()
 
 void TelepathyPresenceApplet::onAddContactRequest()
 {
-    QWeakPointer<AccountsModel> accountModel = new AccountsModel();
-    accountModel.data()->setAccountManager(m_accountManager);
+    AccountsModel *accountsModel = new AccountsModel();
+    accountsModel->setAccountManager(m_accountManager);
 
-    QWeakPointer<KTp::AddContactDialog> dialog = new KTp::AddContactDialog(accountModel.data(), 0);
-    if (dialog.data()->exec() == QDialog::Accepted)
-    {
-        Tp::AccountPtr account = dialog.data()->account();
-        if (account.isNull()) {
-            KMessageBox::error(dialog.data(),
-                               i18n("Seems like you forgot to select an account. Also do not forget to connect it first."),
-                               i18n("No Account Selected"));
-        } else if (account->connection().isNull()) {
-            KMessageBox::error(dialog.data(),
-                               i18n("An error we did not anticipate just happened and so the contact could not be added. Sorry."),
-                               i18n("Account Error"));
-        } else {
-            QStringList identifiers = QStringList() << dialog.data()->screenName();
-            Tp::PendingContacts *pendingContacts = account->connection()->contactManager()->contactsForIdentifiers(identifiers);
-            connect(pendingContacts, SIGNAL(finished(Tp::PendingOperation*)),
-                    this, SLOT(onAddContactRequestFoundContacts(Tp::PendingOperation*)));
-        }
-    }
-
-    delete dialog.data();
-    delete accountModel.data();
+    KTp::AddContactDialog *dialog = new KTp::AddContactDialog(accountsModel);
+    accountsModel->setParent(dialog); //delete the model with the dialog
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
+    dialog->show();
 }
 
-void TelepathyPresenceApplet::onAddContactRequestFoundContacts(Tp::PendingOperation *operation)
+void TelepathyPresenceApplet::onMakeCallRequest()
 {
-    Tp::PendingContacts *pendingContacts = qobject_cast<Tp::PendingContacts*>(operation);
-
-    if (!pendingContacts->isError()) {
-        //request subscription
-        pendingContacts->manager()->requestPresenceSubscription(pendingContacts->contacts());
-    } else {
-        kDebug() << pendingContacts->errorName();
-        kDebug() << pendingContacts->errorMessage();
-    }
+    KToolInvocation::kdeinitExec(QLatin1String("ktp-dialout-ui"));
 }
 
 void TelepathyPresenceApplet::onPresenceChanged(KTp::Presence presence)

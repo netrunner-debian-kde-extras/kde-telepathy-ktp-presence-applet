@@ -7,80 +7,80 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
-"PO-Revision-Date: 2012-05-02 13:45+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
-"Language: \n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"PO-Revision-Date: 2012-09-20 08:36+0800\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "更多"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "上線"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "忙碌"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "離開"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "無法聯繫"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "隱身"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "離線"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "帳號管理員"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "聯絡人清單"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:143
 msgid "Add New Contacts"
 msgstr "新增聯絡人"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
-msgstr "您似乎忘了選擇一個帳號。同時也別忘了先連線過去。"
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
+msgstr "執行呼叫"
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr "未選取任何帳號"
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr "剛發生了一個未預期的錯誤，因此無法新增聯絡人。抱歉。"
-
-#: src/presenceapplet.cpp:206
-msgid "Account Error"
-msgstr "帳號錯誤"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "連線中..."
+
+#~ msgid ""
+#~ "Seems like you forgot to select an account. Also do not forget to connect "
+#~ "it first."
+#~ msgstr "您似乎忘了選擇一個帳號。同時也別忘了先連線過去。"
+
+#~ msgid "No Account Selected"
+#~ msgstr "未選取任何帳號"
+
+#~ msgid ""
+#~ "An error we did not anticipate just happened and so the contact could not "
+#~ "be added. Sorry."
+#~ msgstr "剛發生了一個未預期的錯誤，因此無法新增聯絡人。抱歉。"
+
+#~ msgid "Account Error"
+#~ msgstr "帳號錯誤"
 
 #~ msgid "General"
 #~ msgstr "一般"

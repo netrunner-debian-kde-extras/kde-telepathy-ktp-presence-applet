@@ -1,88 +1,79 @@
 # Copyright © 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the ktp-presence-applet package.
-#
 # Tommi Nieminen <translator@legisign.org>, 2012.
+#
+# KDE 4.9 Finnish translation sprint 2012-06/07
+# Author: Artnay
+# Author: Lliehu
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_ktp_presence\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
-"PO-Revision-Date: 2012-04-16 17:55+0300\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"PO-Revision-Date: 2012-07-08 16:52:32+0000\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
-"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-06-15 07:12:07+0000\n"
+"X-Generator: MediaWiki 1.20alpha (r113129); Translate 2012-07-04\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "Lisää"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "Paikalla"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Varattu"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Poissa"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "Ei saatavilla"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Näkymätön"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "Poissa"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Tilinhallinta"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "Yhteystietoluettelo"
 
-#: src/presenceapplet.cpp:138
-#, fuzzy
-#| msgid "Show Contact List"
+#: src/presenceapplet.cpp:143
 msgid "Add New Contacts"
-msgstr "Näytä yhteystietoluettelo"
+msgstr "Lisää uusia yhteystietoja"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
 msgstr ""
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:206
-#, fuzzy
-#| msgid "Account Manager"
-msgid "Account Error"
-msgstr "Tilinhallinta"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "Yhdistetään..."
+
+#~ msgid "No Account Selected"
+#~ msgstr "Tiliä ei ole valittu"
+
+#~ msgid "Account Error"
+#~ msgstr "Tilivirhe"
 
 #~ msgid "General"
 #~ msgstr "Yleistä"

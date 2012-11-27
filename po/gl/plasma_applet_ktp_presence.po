@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
 "PO-Revision-Date: 2012-01-28 00:54+0100\n"
 "Last-Translator: Xosé <xosecalvo@gmail.com>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -20,73 +20,58 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "Máis"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "Conectado"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Ocupado"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Ausente"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "Non dispoñíbel"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Invisíbel"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "Desconectado"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Xestor de contas"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "Lista de contactos"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:143
 #, fuzzy
-#| msgid "Show Contact List"
 msgid "Add New Contacts"
 msgstr "Mostrar a lista de contactos"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
 msgstr ""
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:206
-#, fuzzy
-#| msgid "Account Manager"
-msgid "Account Error"
-msgstr "Xestor de contas"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "A conectar..."
+
+#, fuzzy
+#~ msgid "Account Error"
+#~ msgstr "Xestor de contas"
 
 #~ msgid "General"
 #~ msgstr "Xeral"

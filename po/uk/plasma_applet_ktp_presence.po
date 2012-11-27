@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
-"PO-Revision-Date: 2012-03-29 08:08+0300\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"PO-Revision-Date: 2012-08-01 08:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,72 +18,72 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr "Більше"
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "В мережі"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Зайнятий"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Відсутній"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr "Недоступний"
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Невидимий"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "Поза мережею"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Керування обліковими записами"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 msgid "Contact List"
 msgstr "Список контактів"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:143
 msgid "Add New Contacts"
 msgstr "Додати нові контакти"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
-msgstr ""
-"Здається, ви забули позначити обліковий запис. Не забудьте спочатку "
-"встановити з ним з’єднання."
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
+msgstr "Викликати"
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr "Не вказано облікового запису"
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-"Сталася непередбачена нами помилка, контакт не вдалося додати. Вибачте."
-
-#: src/presenceapplet.cpp:206
-msgid "Account Error"
-msgstr "Помилка облікового запису"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr "Встановлення з’єднання…"
+
+#~ msgid ""
+#~ "Seems like you forgot to select an account. Also do not forget to connect "
+#~ "it first."
+#~ msgstr ""
+#~ "Здається, ви забули позначити обліковий запис. Не забудьте спочатку "
+#~ "встановити з ним з’єднання."
+
+#~ msgid "No Account Selected"
+#~ msgstr "Не вказано облікового запису"
+
+#~ msgid ""
+#~ "An error we did not anticipate just happened and so the contact could not "
+#~ "be added. Sorry."
+#~ msgstr ""
+#~ "Сталася непередбачена нами помилка, контакт не вдалося додати. Вибачте."
+
+#~ msgid "Account Error"
+#~ msgstr "Помилка облікового запису"
 
 #~ msgid "General"
 #~ msgstr "Загальне"

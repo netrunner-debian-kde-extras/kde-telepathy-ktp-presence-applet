@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.telepathy-presence\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-29 04:59+0200\n"
+"POT-Creation-Date: 2012-09-29 13:31+0200\n"
 "PO-Revision-Date: 2011-11-29 21:50+0100\n"
 "Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -18,77 +18,60 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: src/presenceapplet.cpp:119
+#: src/presenceapplet.cpp:124
 msgid "More"
 msgstr ""
 
-#: src/presenceapplet.cpp:121
+#: src/presenceapplet.cpp:126
 msgid "Online"
 msgstr "Tokoppelt"
 
-#: src/presenceapplet.cpp:122
+#: src/presenceapplet.cpp:127
 msgid "Busy"
 msgstr "Hett to doon"
 
-#: src/presenceapplet.cpp:123
+#: src/presenceapplet.cpp:128
 msgid "Away"
 msgstr "Weg"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:129
 msgid "Not Available"
 msgstr ""
 
-#: src/presenceapplet.cpp:125
+#: src/presenceapplet.cpp:130
 msgid "Invisible"
 msgstr "Nich sichtbor"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:131
 msgid "Offline"
 msgstr "Afkoppelt"
 
-#: src/presenceapplet.cpp:136
+#: src/presenceapplet.cpp:141
 msgid "Account Manager"
 msgstr "Kontopleger"
 
-#: src/presenceapplet.cpp:137
+#: src/presenceapplet.cpp:142
 #, fuzzy
-#| msgid "Contact list"
 msgid "Contact List"
 msgstr "Kontaktenlist"
 
-#: src/presenceapplet.cpp:138
+#: src/presenceapplet.cpp:143
 #, fuzzy
-#| msgid "Contact list"
 msgid "Add New Contacts"
 msgstr "Kontaktenlist"
 
-#: src/presenceapplet.cpp:201
-msgid ""
-"Seems like you forgot to select an account. Also do not forget to connect it "
-"first."
+#: src/presenceapplet.cpp:146
+msgid "Make a Call"
 msgstr ""
 
-#: src/presenceapplet.cpp:202
-msgid "No Account Selected"
-msgstr ""
-
-#: src/presenceapplet.cpp:205
-msgid ""
-"An error we did not anticipate just happened and so the contact could not be "
-"added. Sorry."
-msgstr ""
-
-#: src/presenceapplet.cpp:206
-#, fuzzy
-#| msgid "Account Manager"
-msgid "Account Error"
-msgstr "Kontopleger"
-
-#: src/presenceapplet.cpp:256
+#: src/presenceapplet.cpp:257
 msgid "Connecting..."
 msgstr ""
 
 #, fuzzy
-#~| msgid "Account Manager"
+#~ msgid "Account Error"
+#~ msgstr "Kontopleger"
+
+#, fuzzy
 #~ msgid "Show Account Manager"
 #~ msgstr "Kontopleger"
