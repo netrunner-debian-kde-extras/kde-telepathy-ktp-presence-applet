@@ -1,3 +1,10 @@
+ktp-presence-applet (0.5.1-1) UNRELEASED; urgency=low
+
+  * [34a67a3] Imported Upstream version 0.5.1
+  * [610b34c] update version dependencies
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Thu, 29 Nov 2012 13:05:03 +0530
+
 ktp-presence-applet (0.4.0-1) unstable; urgency=low
 
   * Initial release.
