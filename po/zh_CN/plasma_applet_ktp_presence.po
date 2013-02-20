@@ -2,67 +2,67 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 13:31+0200\n"
-"PO-Revision-Date: 2012-01-22 14:52+0800\n"
-"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"POT-Creation-Date: 2012-12-12 08:35+0100\n"
+"PO-Revision-Date: 2013-01-12 11:45-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:128
 msgid "More"
 msgstr "更多"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:130
 msgid "Online"
 msgstr "在线"
 
-#: src/presenceapplet.cpp:127
+#: src/presenceapplet.cpp:131
 msgid "Busy"
 msgstr "忙碌"
 
-#: src/presenceapplet.cpp:128
+#: src/presenceapplet.cpp:132
 msgid "Away"
 msgstr "离开"
 
-#: src/presenceapplet.cpp:129
+#: src/presenceapplet.cpp:133
 msgid "Not Available"
 msgstr "不可用"
 
-#: src/presenceapplet.cpp:130
+#: src/presenceapplet.cpp:134
 msgid "Invisible"
 msgstr "隐身"
 
-#: src/presenceapplet.cpp:131
+#: src/presenceapplet.cpp:135
 msgid "Offline"
 msgstr "离线"
 
-#: src/presenceapplet.cpp:141
+#: src/presenceapplet.cpp:145
 msgid "Account Manager"
 msgstr "账户管理器"
 
-#: src/presenceapplet.cpp:142
+#: src/presenceapplet.cpp:146
 msgid "Contact List"
 msgstr "联系人列表"
 
-#: src/presenceapplet.cpp:143
-#, fuzzy
+#: src/presenceapplet.cpp:147
 msgid "Add New Contacts"
-msgstr "显示联系人列表"
+msgstr "添加新联系人"
 
-#: src/presenceapplet.cpp:146
+#: src/presenceapplet.cpp:150
 msgid "Make a Call"
-msgstr ""
+msgstr "开始呼叫"
 
-#: src/presenceapplet.cpp:257
+#: src/presenceapplet.cpp:280
 msgid "Connecting..."
 msgstr "正在连接..."
 
