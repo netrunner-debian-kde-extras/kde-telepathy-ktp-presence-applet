@@ -36,6 +36,7 @@
 #include <KTp/Widgets/add-contact-dialog.h>
 
 #include <Plasma/ToolTipManager>
+#include <Plasma/Svg>
 
 #include <TelepathyQt/PendingOperation>
 #include <TelepathyQt/PendingContacts>
@@ -55,7 +56,6 @@ TelepathyPresenceApplet::TelepathyPresenceApplet(QObject *parent, const QVariant
 
     m_icon = new Plasma::IconWidget(this);
     connect(m_icon, SIGNAL(clicked()), this, SLOT(startContactList()));
-    m_icon->setIcon(m_globalPresence->currentPresence().icon());
 
     QGraphicsLinearLayout *layout = new QGraphicsLinearLayout();
     layout->setContentsMargins(2, 2, 2, 2);
@@ -68,8 +68,12 @@ TelepathyPresenceApplet::TelepathyPresenceApplet(QObject *parent, const QVariant
     int iconSize = IconSize(KIconLoader::Small);
     setMinimumSize(QSize(iconSize, iconSize));
 
-    connect(m_globalPresence, SIGNAL(currentPresenceChanged(KTp::Presence)), this, SLOT(onPresenceChanged(KTp::Presence)));
-    connect(m_globalPresence, SIGNAL(changingPresence(bool)), this, SLOT(setBusy(bool)));
+    connect(m_globalPresence, SIGNAL(currentPresenceChanged(KTp::Presence)), SLOT(onPresenceChanged(KTp::Presence)));
+    onPresenceChanged(m_globalPresence->currentPresence());
+
+    connect(m_globalPresence, SIGNAL(connectionStatusChanged(Tp::ConnectionStatus)), SLOT(onConnectionStatusChanged(Tp::ConnectionStatus)));
+    onConnectionStatusChanged(m_globalPresence->connectionStatus());
+
 
     setStatus(Plasma::PassiveStatus);
 
@@ -232,7 +236,26 @@ void TelepathyPresenceApplet::onMakeCallRequest()
 
 void TelepathyPresenceApplet::onPresenceChanged(KTp::Presence presence)
 {
-    m_icon->setIcon(presence.icon());
+    QString iconBaseName = presence.iconName(false);
+
+    Plasma::Svg svgIcon;
+    svgIcon.setImagePath("icons/presence-applet");
+    if (svgIcon.hasElement(iconBaseName+"-plasma")) {
+        svgIcon.resize(150,150);
+        KIcon icon = KIcon(svgIcon.pixmap(iconBaseName+"-plasma"));
+        m_icon->setIcon(icon);
+    } else {
+        m_icon->setIcon(presence.icon());
+    }
+}
+
+void TelepathyPresenceApplet::onConnectionStatusChanged(Tp::ConnectionStatus connectionStatus)
+{
+    if (connectionStatus == Tp::ConnectionStatusConnecting) {
+        setBusy(true);
+    } else {
+        setBusy(false);
+    }
 }
 
 void TelepathyPresenceApplet::onPresenceActionClicked()

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_ktp_presence\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"POT-Creation-Date: 2012-12-12 08:35+0100\n"
 "PO-Revision-Date: 2012-09-02 08:05+0200\n"
 "Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -19,51 +19,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:128
 msgid "More"
 msgstr "Περισσότερα"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:130
 msgid "Online"
 msgstr "Σε σύνδεση"
 
-#: src/presenceapplet.cpp:127
+#: src/presenceapplet.cpp:131
 msgid "Busy"
 msgstr "Απασχολημένος"
 
-#: src/presenceapplet.cpp:128
+#: src/presenceapplet.cpp:132
 msgid "Away"
 msgstr "Αλλού"
 
-#: src/presenceapplet.cpp:129
+#: src/presenceapplet.cpp:133
 msgid "Not Available"
 msgstr "Μη διαθέσιμος"
 
-#: src/presenceapplet.cpp:130
+#: src/presenceapplet.cpp:134
 msgid "Invisible"
 msgstr "Αόρατος"
 
-#: src/presenceapplet.cpp:131
+#: src/presenceapplet.cpp:135
 msgid "Offline"
 msgstr "Εκτός σύνδεσης"
 
-#: src/presenceapplet.cpp:141
+#: src/presenceapplet.cpp:145
 msgid "Account Manager"
 msgstr "Πρόγραμμα διαχείρισης λογαριασμού"
 
-#: src/presenceapplet.cpp:142
+#: src/presenceapplet.cpp:146
 msgid "Contact List"
 msgstr "Λίστα επαφών"
 
-#: src/presenceapplet.cpp:143
+#: src/presenceapplet.cpp:147
 msgid "Add New Contacts"
 msgstr "Προσθήκη νέων επαφών"
 
-#: src/presenceapplet.cpp:146
+#: src/presenceapplet.cpp:150
 msgid "Make a Call"
 msgstr "Κάνετε μία κλήση"
 
-#: src/presenceapplet.cpp:257
+#: src/presenceapplet.cpp:280
 msgid "Connecting..."
 msgstr "Συνδέεται..."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"POT-Creation-Date: 2012-12-12 08:35+0100\n"
 "PO-Revision-Date: 2012-09-20 08:36+0800\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:128
 msgid "More"
 msgstr "更多"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:130
 msgid "Online"
 msgstr "上線"
 
-#: src/presenceapplet.cpp:127
+#: src/presenceapplet.cpp:131
 msgid "Busy"
 msgstr "忙碌"
 
-#: src/presenceapplet.cpp:128
+#: src/presenceapplet.cpp:132
 msgid "Away"
 msgstr "離開"
 
-#: src/presenceapplet.cpp:129
+#: src/presenceapplet.cpp:133
 msgid "Not Available"
 msgstr "無法聯繫"
 
-#: src/presenceapplet.cpp:130
+#: src/presenceapplet.cpp:134
 msgid "Invisible"
 msgstr "隱身"
 
-#: src/presenceapplet.cpp:131
+#: src/presenceapplet.cpp:135
 msgid "Offline"
 msgstr "離線"
 
-#: src/presenceapplet.cpp:141
+#: src/presenceapplet.cpp:145
 msgid "Account Manager"
 msgstr "帳號管理員"
 
-#: src/presenceapplet.cpp:142
+#: src/presenceapplet.cpp:146
 msgid "Contact List"
 msgstr "聯絡人清單"
 
-#: src/presenceapplet.cpp:143
+#: src/presenceapplet.cpp:147
 msgid "Add New Contacts"
 msgstr "新增聯絡人"
 
-#: src/presenceapplet.cpp:146
+#: src/presenceapplet.cpp:150
 msgid "Make a Call"
 msgstr "執行呼叫"
 
-#: src/presenceapplet.cpp:257
+#: src/presenceapplet.cpp:280
 msgid "Connecting..."
 msgstr "連線中..."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 13:31+0200\n"
+"POT-Creation-Date: 2012-12-12 08:35+0100\n"
 "PO-Revision-Date: 2012-08-30 17:09+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: src/presenceapplet.cpp:124
+#: src/presenceapplet.cpp:128
 msgid "More"
 msgstr "Más"
 
-#: src/presenceapplet.cpp:126
+#: src/presenceapplet.cpp:130
 msgid "Online"
 msgstr "Conectado"
 
-#: src/presenceapplet.cpp:127
+#: src/presenceapplet.cpp:131
 msgid "Busy"
 msgstr "Ocupado"
 
-#: src/presenceapplet.cpp:128
+#: src/presenceapplet.cpp:132
 msgid "Away"
 msgstr "Ausente"
 
-#: src/presenceapplet.cpp:129
+#: src/presenceapplet.cpp:133
 msgid "Not Available"
 msgstr "No disponible"
 
-#: src/presenceapplet.cpp:130
+#: src/presenceapplet.cpp:134
 msgid "Invisible"
 msgstr "Invisible"
 
-#: src/presenceapplet.cpp:131
+#: src/presenceapplet.cpp:135
 msgid "Offline"
 msgstr "Desconectado"
 
-#: src/presenceapplet.cpp:141
+#: src/presenceapplet.cpp:145
 msgid "Account Manager"
 msgstr "Gestor de cuentas"
 
-#: src/presenceapplet.cpp:142
+#: src/presenceapplet.cpp:146
 msgid "Contact List"
 msgstr "Lista de contactos"
 
-#: src/presenceapplet.cpp:143
+#: src/presenceapplet.cpp:147
 msgid "Add New Contacts"
 msgstr "Añadir nuevos contactos"
 
-#: src/presenceapplet.cpp:146
+#: src/presenceapplet.cpp:150
 msgid "Make a Call"
 msgstr "Hacer una llamada"
 
-#: src/presenceapplet.cpp:257
+#: src/presenceapplet.cpp:280
 msgid "Connecting..."
 msgstr "Conectando..."
 
