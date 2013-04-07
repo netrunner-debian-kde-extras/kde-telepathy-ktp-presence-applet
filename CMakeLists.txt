@@ -1,13 +1,14 @@
-project(ktp-presence-applet)
+project(ktp-desktop-applets)
 
 set(CMAKE_MODULE_PATH
     "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules"
     ${CMAKE_MODULE_PATH}
 )
-
-set(KDE_MIN_VERSION "4.6.0")
+cmake_policy(SET CMP0002 OLD)
 
 set(IS_KTP_INTERNAL_MODULE TRUE)
+set(KDE_MIN_VERSION "4.7.0")
+set(KTP_DESKTOP_APPLETS_VERSION "0.6.0")
 
 find_package(KDE4 ${KDE_MIN_VERSION} REQUIRED)
 find_package(TelepathyQt4 0.8.90 REQUIRED)
@@ -20,30 +21,18 @@ add_definitions(${QT_DEFINITIONS}
 )
 
 include_directories(${CMAKE_SOURCE_DIR}
-                    ${CMAKE_BINARY_DIR}
-                    ${KDE4_INCLUDES}
-                    ${TELEPATHY_QT4_INCLUDE_DIR}
-                    ${KTP_INCLUDE_DIR}
+		    ${CMAKE_BINARY_DIR}
+		    ${KDE4_INCLUDES}
+		    ${TELEPATHY_QT4_INCLUDE_DIR}
+		    ${KTP_INCLUDE_DIR}
 )
 
+add_subdirectory(chat)
+add_subdirectory(contact)
+add_subdirectory(contactlist)
+add_subdirectory(presence)
 
-set(plasma_applet_ktp_presence_SRCS
-    src/presenceapplet.cpp
-)
-
-
-kde4_add_plugin(plasma_applet_ktp_presence ${plasma_applet_ktp_presence_SRCS})
-target_link_libraries(plasma_applet_ktp_presence
-                        ${KDE4_PLASMA_LIBS}
-                        ${KDE4_KDEUI_LIBS}
-                        ${TELEPATHY_QT4_LIBRARIES}
-                        ${KTP_LIBRARIES}
-                        ${KTP_MODELS_LIBRARIES}
-                        ${KTP_WIDGETS_LIBRARIES}
-                     )
-
-install(TARGETS plasma_applet_ktp_presence DESTINATION ${PLUGIN_INSTALL_DIR})
-install(FILES plasma_applet_ktp_presence.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+install(FILES 50-renameKTpApplets.js DESTINATION ${DATA_INSTALL_DIR}/plasma-desktop/updates)
 find_package(Msgfmt REQUIRED)
 find_package(Gettext REQUIRED)
 add_subdirectory( po )
